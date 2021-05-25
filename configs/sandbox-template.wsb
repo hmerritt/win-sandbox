@@ -1,0 +1,19 @@
+<Configuration>
+	<MappedFolders>
+		<MappedFolder> 
+			<HostFolder>${../mnt}</HostFolder> 
+			<SandboxFolder>C:\mnt\bin</SandboxFolder> 
+			<ReadOnly>true</ReadOnly> 
+		</MappedFolder>
+
+		<MappedFolder> 
+			<HostFolder>${C:\Users\%USERNAME%\Downloads}</HostFolder> 
+			<SandboxFolder>C:\mnt\Downloads</SandboxFolder> 
+			<ReadOnly>true</ReadOnly> 
+		</MappedFolder>
+	</MappedFolders>
+
+	<LogonCommand>
+		<Command>C:\mnt\bin\sandbox-entrypoint.cmd</Command>
+	</LogonCommand>
+</Configuration>
