@@ -10,3 +10,11 @@ scoop bucket add hmerritt "https://github.com/hmerritt/scoop-bucket"
 #scoop install starship
 scoop install notepadplusplus
 scoop install windows-terminal
+
+
+# Launch programs
+## windows-terminal as an administrator
+wt -d C:\users\WDAGUtilityAccount\Downloads --title Sandbox
+
+## explorer
+#explorer.exe C:\mnt\Downloads
