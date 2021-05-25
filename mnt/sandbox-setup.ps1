@@ -8,11 +8,17 @@ scoop bucket add hmerritt "https://github.com/hmerritt/scoop-bucket"
 
 ## Install programs
 #scoop install starship
+scoop install fspop
 scoop install notepadplusplus
 scoop install windows-terminal
 
 ## Notepad in contextmenu
 Invoke-Command { reg import C:\mnt\bin\notepad-contextmenu.reg }
+
+
+# Populate useful files
+Set-Location "C:\users\WDAGUtilityAccount\Downloads"
+fspop deploy "C:\mnt\bin\fspop-structure.yaml"
 
 
 # Launch programs
