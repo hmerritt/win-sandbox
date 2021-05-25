@@ -1,0 +1,92 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\EditWithNpp]
+@="Edit with Notepad++"
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\EditWithNpp\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\edit]
+@="Edit"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\edit\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+
+[HKEY_CLASSES_ROOT\Applications\notepad++.exe\shell\open\command]   
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.conf\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.conf\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.config\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.config\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.css\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.css\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.ini\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.ini\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.inf\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.inf\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.json\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.json\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.log\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.log\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.lua\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.lua\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.nfo\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.nfo\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.php\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.php\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.txt\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.txt\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.xhtml\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.xhtml\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.xml\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.xml\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.yaml\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.yaml\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.yml\shell]
+"Icon"="C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe"
+[HKEY_CURRENT_USER\SOFTWARE\Classes\.yml\shell\open\command]
+@="\"C:\\Users\\WDAGUtilityAccount\\scoop\\apps\\notepadplusplus\\current\\notepad++.exe\" \"%1\" %*"
